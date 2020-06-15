@@ -1,0 +1,172 @@
+/*******************************************************/
+/* BASIC TAB LEFT/RIGHT PADDING                        */
+/*******************************************************/
+
+/*** GENERIC STYLES ***/
+#mainnav ul.mainnavcategories li a span.linkinner {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/*** FF overides ***/
+/** FF 2 **/
+#mainnav ul.mainnavcategories li a span.linkinner, x:-moz-any-link {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/** FF 3 & later - reset **/
+#mainnav ul.mainnavcategories li a span.linkinner, x:-moz-any-link, x:default {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/*** SAFARI OVERIDES (make sure version 3 sits second) ***/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	/** version 4 **/
+	#mainnav ul.mainnavcategories li a span.linkinner {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	
+	/** version 3 **/
+	/*\*/
+		html*#mainnav ul.mainnavcategories li a span.linkinner {
+			padding-left: 7px;
+			padding-right: 7px;
+		}
+	/**/
+	
+	/** MAC **/
+	#mainnav ul.mainnavcategories li a.macintosh span.linkinner  {
+		padding-left: 7px;
+		padding-right: 7px;
+	} 
+}
+
+
+/*******************************************************/
+/* USE FIRST & LAST TABS TO ADD / REMOVE SLACK         */
+/*******************************************************/
+
+
+/**** FIRST TAB ****/
+
+/*** GENERIC STYLES ***/
+#mainnav ul.mainnavcategories li.first a span.linkinner  {
+	padding-left: 10px;
+} 
+
+/*** FF overides ***/
+/** FF 2 **/
+#mainnav ul.mainnavcategories li.first a span.linkinner, x:-moz-any-link {
+	padding-left: 7px;
+}
+
+/** FF 3 & later - reset **/
+#mainnav ul.mainnavcategories li.first a span.linkinner, x:-moz-any-link, x:default {
+	padding-left: 10px;
+}
+
+/* SAFARI OVERIDES (make sure version 3 sits second) */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	/** version 4 **/
+	#mainnav ul.mainnavcategories li.first a span.linkinner  {
+		padding-left: 7px;
+		padding-right: 6px;
+	} 
+		
+	/** version 3 **/
+	/*\*/
+		html*#mainnav ul.mainnavcategories li.first a span.linkinner  {
+			padding-left: 8px;
+			padding-right: 8px;
+		} 
+	/**/
+	
+	/** MAC **/
+	#mainnav ul.mainnavcategories li.first a.macintosh span.linkinner  {
+		padding-left: 4px;
+		padding-right: 6px;
+	} 
+	
+}
+
+
+/**** LAST TAB ****/
+
+/*** GENERIC STYLES ***/
+#mainnav ul.mainnavcategories li.last a span.linkinner  {
+	padding-left: 8px;
+	padding-right: 0px;
+	/* IE6 setting only - removes potential excessive height */
+	_margin-bottom: 0px;
+} 
+
+/*** FF overides ***/
+/** FF 2 **/
+#mainnav ul.mainnavcategories li.last a span.linkinner, x:-moz-any-link {
+	padding-left: 8px;
+	padding-right: 0px;
+}
+
+/** FF 3 & later - reset **/
+#mainnav ul.mainnavcategories li.last a span.linkinner, x:-moz-any-link, x:default {
+	padding-left: 8px;
+	padding-right: 0px;
+}
+
+/*** SAFARI OVERIDES (make sure version 3 sits second) ***/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	/** version 4 **/
+	#mainnav ul.mainnavcategories li.last a span.linkinner  {
+		padding-left: 7px;
+		padding-right: 6px;
+	} 
+
+	/** version 3 **/
+	/*\*/
+	html*#mainnav ul.mainnavcategories li.last a span.linkinner  {
+		padding-left: 7px;
+		padding-right: 8px;
+	} 
+	}
+	/**/
+	
+	/** MAC **/
+	#mainnav ul.mainnavcategories li.last a.macintosh span.linkinner  {
+		padding-left: 5px;
+		padding-right: 4px;
+	} 
+
+
+
+/****************************/
+/* background image set up  */
+/****************************/
+
+/* using the "BackgroundImage" value set in the dropdownnav.xml combined with the category id */
+/* you can specify individual backgrounds either for a whole submenu or for individual columns */
+/* the category id must be prefixed with "ddm_" in the css*/
+
+/*examples of background-images on individual columns */
+/*columns will not be of equal height, although visually, they give that impression */
+#mainnav ul.testcampaign li div#ddm_14418476 ul li.column_1 {
+	background-image: url('https://www.argos.ie/wcsstore/argosie/en_IE/images/dropdownmenu/argosimages/maincategories_submenu_catalogue_bg.gif');
+	background-position: 20px 100px;
+	background-repeat: no-repeat;
+}
+
+#mainnav ul.testcampaign li div#ddm_14418476 ul li.column_2 {
+	background-image: url('https://www.argos.ie/wcsstore/argosie/en_IE/images/dropdownmenu/argosimages/maincategories_submenu_catalogue_bg.gif');
+	background-position: 60px bottom;
+	background-repeat: no-repeat;
+}
+
+/*example of background-image on whole dropdown menu */
+/*this background spans the dimension of the submenu box */
+#mainnav ul.testcampaign li div#ddm_14419152  {
+	background-image: url('https://www.argos.ie/wcsstore/argosie/en_IE/images/dropdownmenu/argosimages/maincategories_submenu_catalogue_bg.gif');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}

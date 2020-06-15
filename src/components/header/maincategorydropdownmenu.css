@@ -1,0 +1,208 @@
+#mainnav ul.mainnavcategories li div.off  {
+	left:-999999em !important;
+	position:absolute !important;
+	top:0 !important;
+	width: 0px;
+}
+
+div#mainnav ul:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0px;
+	visibility:hidden;
+}
+
+div#mainnav ul {
+	display:block;
+	zoom: 1;
+}
+
+div#mainnav {
+	/*position: relative;*/
+	z-index: 150;
+}
+
+#argoshome #homepromo1 #promo, 
+#argoshome #homepromo1 #promo_noscript,
+#argoshome #quicksearch,
+#argoshome homeespotprimary,
+#argoshome homeespotsecondary,
+#argoshome homeespotprimary object,
+#argoshome homeespotsecondary object,
+#argoshome #homepromo1 #promo a, 
+#argoshome #homepromo1 #promo_noscript a,
+#argoshome #quicksearch a,
+#argoshome homeespotprimary a,
+#argoshome homeespotsecondary a,
+#argoshome homeespotprimary object a,
+#argoshome homeespotsecondary object a {
+	z-index: -1;
+}
+
+
+
+#mainnav ul.mainnavcategories li div.submenu    {
+	background-color: #fff;
+	border: 1px solid #006182;
+	border-top-width: 10px;
+	border-bottom-width: 3px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 100%;
+	left: 0px;
+	display: block;
+	float: left;
+	z-index: 201;
+}
+
+#mainnav ul.mainnavcategories li.pricecuts div.submenu    {
+	border: 1px solid #EC2E2C;
+	border-bottom-width: 3px;
+	border-top-width: 10px;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul {
+	background-image: url('/wcsstore/argosie/en_IE/images/dropdownmenu/images/maincategories_submenu_trans_bg.gif');
+	z-index: 201;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column  {
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	margin-top: -7px;
+	line-height: normal;
+	background-image: none;
+	width: 223px;
+	height: auto;
+	float: left;
+	display: block;
+	position: relative;
+	overflow: visible;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul,
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li,
+#mainnav ul.mainnavcategories li div.submenu ul li.column h2,
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li a {
+	color: #333;
+	font-weight: normal;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	background-image: none;
+	background-repeat: repeat;
+	background-color: transparent;
+	float: left;
+	display: block;
+	width: 207px;
+}
+
+
+
+#mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a,
+.argosgs #mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a,
+.giftsetup #mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a {
+	background-color: transparent;
+	background-image: none;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column h2 {
+	margin: 0px;
+	margin-bottom: 5px;
+	padding: 0px;
+	padding-top: 5px;
+	line-height: normal;
+	padding-left: 15px!important;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul  {
+	margin-bottom: 10px;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li {
+	margin-top: 1px;
+	
+
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li a {
+	width: 202px;
+    padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1.0em;
+	z-index: 201;
+	display: block;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li a:hover,
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li a:focus,
+.argosgs #mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a:hover,
+.giftsetup #mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a:hover,
+.argosgs #mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a:focus,
+.giftsetup #mainnav ul.mainnavcategories li.selected div.submenu ul li.column ul li a:focus {
+	color: #333;
+	_color: #000;
+	text-decoration: underline;
+	background-image:url('/wcsstore/argosie/en_IE/images/dropdownmenu/images/maincategories_submenu_li_opacity_bg.png');
+	background-position: top left;
+	_background-color: #E4E4E4;
+	_filter: alpha(opacity=70);
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.column ul li a:active {
+	*color: #333;
+	_color: #000;
+	*text-decoration: underline;
+	*background-image:url('/wcsstore/argosie/en_IE/images/dropdownmenu/images/maincategories_submenu_li_opacity_bg.png');
+	*background-position: top left;
+	_background-image: none;
+	_background-color: #E4E4E4;
+	_filter: alpha(opacity=70);
+}
+
+#mainnav ul.mainnavcategories li.selectednotabbing  div.submenu ul li.column ul li a {
+	background-color: transparent!important;
+	_background-color: #E4E4E4!important;
+}
+
+
+
+
+#mainnav ul.mainnavcategories li div.submenu ul li.last,
+#mainnav ul.mainnavcategories li div.submenu ul li.last ul,
+#mainnav ul.mainnavcategories li div.submenu ul li.last ul li,
+#mainnav ul.mainnavcategories li div.submenu ul li.last h2 {
+	width: 205px;
+}
+
+#mainnav ul.mainnavcategories li div.submenu ul li.last ul li a {
+	width: 200px;
+}
+
+#mainnav ul.mainnavcategories li.requiredcolumns1 div.submenu ul {
+	width: 220px;
+}
+
+#mainnav ul.mainnavcategories li.requiredcolumns2 div.submenu ul {
+	width: 443px;
+}
+
+#mainnav ul.mainnavcategories li.requiredcolumns3 div.submenu ul {
+	width: 666px;
+}
+
+#mainnav ul.mainnavcategories li.requiredcolumns4 div.submenu ul {
+	width: 889px;
+}
+
+
+

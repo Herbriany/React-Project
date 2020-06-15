@@ -1,0 +1,52 @@
+/* NEW WINDOW LINKS */
+
+div#globalNavigation div.links div.secondary ul li.newwindowlink span {
+	padding-right: 15px;
+	background: url(/wcsstore/argosie/en_IE/images/headerfooter/images/newwindow_icon.gif) no-repeat right 3px;   
+}
+
+#footer .footerlinks ul li.newwindowlink span {
+	padding-right: 15px;
+	background: url(/wcsstore/argosie/en_IE/images/headerfooter/images/newwindow_icon.gif) no-repeat right 3px;   
+}
+
+#footertext p.newwindow {
+	background: url(/wcsstore/argosie/en_IE/images/headerfooter/images/newwindow_icon.gif) no-repeat 15px 3px;   
+}
+
+/* TROLLEY HEADER ICONS */
+
+#header #sitesearch div.trolleyHeaderIcons {
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 29px;
+	float:left;
+}
+
+#header #sitesearch div.trolleyHeaderIcons img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#header #sitesearch div.trolleyHeaderIcons div.logos {
+	display: inline;
+}
+
+#header #sitesearch div.trolleyHeaderIcons div.trolleyHeaderLogoEspot {
+	float: left;
+	padding-top:5px;
+}
+
+#header #sitesearch div.trolleyHeaderIcons div.trolleyHeaderLogoEspot div {
+	display: inline;
+}
+
+#header #sitesearch div.trolleyHeaderIcons div.trolleyHeaderLogoEspot img {
+	position: relative;
+	top: 2px;
+}
+
+#header #sitesearch div.trolleyHeaderIcons div.logos .hidden  {
+	display: none;
+	visibility: hidden;
+}
